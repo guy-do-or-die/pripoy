@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="100"
-   height="100"
+   width="10"
+   height="10"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="sharp.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="37.354982"
-     inkscape:cy="53.119666"
+     inkscape:zoom="15.839192"
+     inkscape:cx="10.234176"
+     inkscape:cy="11.397032"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,18 +51,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-952.36218)">
+     transform="translate(0,-1042.3622)">
     <text
        xml:space="preserve"
-       style="font-size:130.89137268px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-6.2905102"
-       y="1080.7085"
+       style="font-size:14.27092838px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1.0770112"
+       y="1078.0181"
        id="text3252"
        sodipodi:linespacing="125%"
-       transform="scale(1.0313896,0.96956573)"><tspan
+       transform="scale(1.0243293,0.97624855)"><tspan
          sodipodi:role="line"
          id="tspan3254"
-         x="-6.2905102"
-         y="1080.7085">#</tspan></text>
+         x="-1.0770112"
+         y="1078.0181">#</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <body class="sharp">
+    <div id="anchor" class="cent"></div>
+    <script src="/js/lib/jquery.js"></script>
+    <script src="/js/lib/jquery-ui.js"></script>
+    <script src="/js/lib/soundmanager2.js"></script>
+    <script src="/js/player.js"></script>
+    <script language="javascript">
+
+        var $player = $('#anchor');
+        var player = new Player($player);
+                
+        document.onselectstart = function() { 
+          return false; 
+        }; 
+      
+        soundManager.onready(function() {
+          player.caption('TRAAAAACK!!!!111');
+          player.play('/sound/1.mp3');
+        });
+    </script>
+  </body>
+</html>
