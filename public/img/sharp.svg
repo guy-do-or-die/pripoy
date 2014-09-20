@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10"
-   height="10"
+   width="11"
+   height="11"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -51,18 +51,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1042.3622)">
+     transform="translate(0,-1041.3622)">
     <text
        xml:space="preserve"
        style="font-size:14.27092838px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-1.0770112"
-       y="1078.0181"
+       x="-0.58393127"
+       y="1077.5007"
        id="text3252"
        sodipodi:linespacing="125%"
        transform="scale(1.0243293,0.97624855)"><tspan
          sodipodi:role="line"
          id="tspan3254"
-         x="-1.0770112"
-         y="1078.0181">#</tspan></text>
+         x="-0.58393127"
+         y="1077.5007">#</tspan></text>
   </g>
 </svg>
