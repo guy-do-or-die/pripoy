@@ -23,7 +23,16 @@
         soundManager.onready(function() {
           player.caption('служенье муз \\\\ muses\' service');
           player.play('https://api.soundcloud.com/tracks/167834266/stream?client_id=b45b1aa10f1ac2941910a7f0d10f8e28');
-        });
+          });
+
+        $(document).ready(function() {
+          document.title = 'pripoy // припой!';
+          l = document.createElement('link');
+          l.setAttribute('type', "image/x-icon");
+          l.setAttribute('rel', "shortcut icon");
+          l.setAttribute('href', "http://pripoy.herokuapp.com/favicon.ico");
+          document.head.appendChild(l);
+        }); 
     </script>
   </body>
 </html>
