@@ -12,18 +12,6 @@
     <script src="/js/lib/soundmanager2.js"></script>
     <script src="/js/player.js"></script>
     <script language="javascript">
-        var ref = document.referrer;
-        if (ref.indexOf("http://www.pripoy.tk/") != 0) {
-          var query = ref.substring (17);
-        } else {
-        }
-        
-        if (ref.indexOf("?") != 0 || ref== "") {
-          document.write('<meta http-equiv="refresh" content="0; URL=/' + query + '">');
-        } else {
-          document.write('<meta http-equiv="refresh" content="0; URL=' + query + '">');
-        }       
-
         var $player = $('#anchor');
         var player = new Player($player);
                 
@@ -35,8 +23,6 @@
           player.caption('служенье муз \\\\ muses\' service');
           player.play('https://api.soundcloud.com/tracks/167834266/stream?client_id=b45b1aa10f1ac2941910a7f0d10f8e28');
         });
-        
-        
     </script>
   </body>
 </html>
