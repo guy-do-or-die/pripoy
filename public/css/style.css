@@ -1,0 +1,22 @@
+.cent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sharp {
+    cursor: url('../img/sharp.svg'), auto;
+}
+
+.sharp-180 {
+    cursor: url('../img/sharp-180.svg'), auto;
+}

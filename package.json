@@ -1,0 +1,26 @@
+{
+  "name": "pripoy",
+  "version": "0.1.0",
+  "description": "#girls #noise #band",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "path": "0.4.9",
+    "express": "~3.4.x",
+    "express-favicon": "1.0.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guy-do-or-die/pripoy"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}

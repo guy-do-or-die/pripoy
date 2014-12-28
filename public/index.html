@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>pripoy // припой</title>  
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>   
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <body class="sharp">
+    <div id="anchor" class="cent"></div>
+    <script src="/js/lib/jquery.js"></script>
+    <script src="/js/lib/jquery-ui.js"></script>
+    <script src="/js/lib/soundmanager2.js"></script>
+    <script src="/js/player.js"></script>
+    <script language="javascript">
+        var $player = $('#anchor');
+        var player = new Player($player);
+                
+        document.onselectstart = function() { 
+          return false; 
+        }; 
+      
+        soundManager.onready(function() {
+          player.caption('служенье муз \\\\ muses\' service');
+          player.play('https://api.soundcloud.com/tracks/167834266/stream?client_id=b45b1aa10f1ac2941910a7f0d10f8e28');
+        });
+    </script>
+  </body>
+</html>
