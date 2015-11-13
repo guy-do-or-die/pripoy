@@ -6,11 +6,16 @@
     <link href="/css/style.css" rel="stylesheet">
   </head>
   <body class="sharp">
+    <div id="canvas-wrapper" style="height: 700px;"></div>
     <div id="anchor" class="cent"></div>
     <script src="/js/lib/jquery.js"></script>
     <script src="/js/lib/jquery-ui.js"></script>
     <script src="/js/lib/soundmanager2.js"></script>
     <script src="/js/player.js"></script>
+    <script src="js/lib/three.min.js"></script>
+    <script src="js/lib/TrackballControls.js"></script>
+    <script src="js/lib/OBJLoader.js"></script>
+    <script src="js/lib/canvas-pripoy.js"></script>
     <script language="javascript">
         var $player = $('#anchor');
         var player = new Player($player);
