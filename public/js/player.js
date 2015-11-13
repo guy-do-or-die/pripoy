@@ -7,7 +7,7 @@
     
     this.sounds = [] 
 
-    this.body = $('<span style="position:absolute;" class="container"><a class="icon" href="#" ' +  
+    this.body = $('<span style="position:absolute;z-index:1000" class="container"><a class="icon" href="#" ' +  
       'onclick="event.preventDefault();player.trigger()"><i class="icon-resume"></i></a></span>');
     
     var $caption = $('<span style="margin-left:10px; font-size: small; color: grey;"></span>');
